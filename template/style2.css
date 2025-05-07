@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+/* Reset de estilos */
+* {
+}
+
+/* Animação flutuante */
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+}
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+#area-cabecalho {
+    padding: 10px;
+    max-width:100%;
+	background-color: #252424;
+	padding: 15px;
+	text-align: center;
+    position:fixed;
+    color:#fff;
+    text-align:center;
+    align-items:center;
+    font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-shadow:5px 3px 3px #0000ff89;
+    z-index:1;
+
+}
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+a {
+	text-decoration: none;
+    text-shadow:none;	
+}
+
+#area-cabecalho a:hover {
+	color: #010005;
+	background: #FFF;
+	border-radius:10px;
+	text-decoration: none;
+}
+a:link, a:visited {
+	color: #000001;
+}
+
+/* Layout base */
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #080808;
+}
+body {
+    color: #080808;
+    background-color: #f9f9fc;
+    background-size: cover;
+    background-position: fixed ;
+    background-position-y: center   ;
+    background-repeat:no-repeat;
+}
+div {
+    width: 100%;
+}
+#fundo {
+    background-image: url(../images/Projeto1/«IA_\ Transformación\ Empresarial\ y\ Retos\ en\ su\ Adopción».jpeg);
+    color: #080808;
+    background-size: cover;
+    background-position: fixed ;
+    background-position-y: center   ;
+    background-repeat:no-repeat;
+}
+
+/* Menu de navegação */
+
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+
+
+
+
+/* Seção Sobre Mim */
+#sobre-mim {
+    color: #080808;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color: #f6f5f791;
+    max-height:80%;
+    margin: auto;
+    margin-top: 150px;
+    width: 80%;
+    max-height:80%;
+    padding: 20px;
+    font-size: 1.5em;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #00112086;
+    transform: translateY(90px);
+    animation: fadeInUp 0.8s ease forwards;
+    animation-delay: 0.5s;
+    z-index:0;
+}
+
+h1 {
+    top: 0;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style:italic ;
+    text-align: left;
+    padding: 10px;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+    animation-delay: 1s;
+}
+h2 {
+    text-align: center;
+}
+    
+.conteudo {
+    margin: auto;
+    max-width: 80%;
+    padding: 20px;
+    position: relative;
+    float: right;
+    display: contents;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transform: translateX(40px);
+    animation: fadeInUp 0.5s ease forwards;
+    animation-delay: 1.5s;
+}
+button {
+    background-color:#080808 ;
+}
+
+
+.conteudo> p {
+    width: 70%;
+    display: flex;
+    float: left;
+}
+.hard {
+    background-color: #080808;
+}
+/* Imagem de perfil */
+#img > img{
+    color: #080808;
+    margin: auto;
+    width: 230px;
+    height: 230px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 5px solid ;
+    display: flex;
+    object-fit: cover;
+    box-shadow: 5px 5px 5px #808080d3;
+    float: left;
+    transform: translateX(40px);
+    animation: fadeInUp 0.5s ease forwards;
+    animation-delay: 1.5s;
+
+}
+
+.contato {
+    display: inline;
+    transform: translateY(20px);
+    transform: translatex(30px);
+    animation: fadeInUp 0.8s ease forwards;
+    animation-delay: 2s;
+}
+
+.contato:hover{
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #08080854;
+}
+
+#icon {
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+.icons {
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+
+}
+    
+#conteudo1 > p {
+    margin-top: 0;
+    width: 100%;
+    font-weight: bold;
+    display: block;
+}
+
