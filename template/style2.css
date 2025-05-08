@@ -35,7 +35,12 @@
 	color: #FFF;
 	padding: 8px 12px;
 }
+
+
 a {
+    width: 40px;
+    height: 10px;
+    padding: 10px;
 	text-decoration: none;
     text-shadow:none;	
 }
@@ -44,9 +49,10 @@ a {
 	color: #010005;
 	background: #FFF;
 	border-radius:10px;
+
 	text-decoration: none;
 }
-a:link, a:visited {
+button:link, button:visited {
 	color: #000001;
 }
 
@@ -60,7 +66,7 @@ html, body {
 }
 body {
     color: #080808;
-    background-color: #f9f9fc;
+    background-color: #CCC;
     background-size: cover;
     background-position: fixed ;
     background-position-y: center   ;
@@ -79,7 +85,14 @@ div {
 }
 
 /* Menu de navegação */
-
+.branco{
+    color: #FFF;
+	font-size: 1.5em;
+    font-style: normal;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
 
 ul {
     display: flex;
@@ -92,17 +105,13 @@ li {
     padding: 10px;
 }
 
-
-
-
-
 /* Seção Sobre Mim */
 #sobre-mim {
     color: #080808;
     background-size:cover;
     background-repeat: no-repeat;
-    background-color: #f6f5f791;
-    max-height:80%;
+    background-color: #fff;
+    max-height:40%;
     margin: auto;
     margin-top: 150px;
     width: 80%;
@@ -217,5 +226,28 @@ button {
     width: 100%;
     font-weight: bold;
     display: block;
+}
+footer{
+    background-color: #CCC;
+    max-height:100%;
+    margin-top: 20px;
+    margin: auto;
+    margin-bottom: 0px;
+    max-width: 100%;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer > div > img {
+    padding: 10px;
+    max-width: 150px;
+    align-items: center;
+    justify-content: center;
+}
+footer > h1 {
+    margin: auto;
+    font-style: normal;
+    font-size: 2.5em;
 }
 
