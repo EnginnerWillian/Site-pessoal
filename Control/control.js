@@ -6,5 +6,5 @@ function mostrarMais(botao) {
 
 	pontos.style.display = 'none';
 	mais.style.display = 'inline';
-	botao.style.display = 'none';
+	botao.style.display = 'sw';
 }

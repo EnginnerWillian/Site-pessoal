@@ -36,7 +36,8 @@ body {
 }
 
 #area-lateral {
-	max-width: 240px;
+	width: 240px;
+	max-width: 60%;
 	float: right;
 	background-position-x: left;
 }
@@ -114,8 +115,11 @@ h3 {
 }
 
 .branco{
+	margin: 0;
+	padding: 0;
 	color: white;
 	text-shadow:5px 3px 3px #0000ff89;
+	float: left;
 }
 
 .data-postagem {
