@@ -4,7 +4,7 @@
 	<title>WNTecBlog - O seu Blog de tecnologia <img src="" alt=""></title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="template/style.css">
-	<link rel="stylesheet" href="Control/control.js">
+	<link rel="" href="Control/control.js">
 </head>
 <body>
 
@@ -109,7 +109,7 @@ Usar duplos cookies, e usar princípios de gerenciamento de configurações como
 				<a href="Contato.html">Contato</a><br>
 				<a href="Manutencao">Manutenção e Suporte</a><br>
 				<a href="Sobre-mim.html">Sobre-mim</a><br>
-				<a href="Websites">Projetos WebSites</a><br>
+				<a href="Websites">Projetos </a><br>
 
 			</div>
 
@@ -123,4 +123,15 @@ Usar duplos cookies, e usar princípios de gerenciamento de configurações como
 	</div>
 
 </body>
+<script>
+	function mostrarMais(botao) {
+		const postagem = botao.closest('.postagem');
+		const pontos = postagem.querySelector('.pontos');
+		const mais = postagem.querySelector('.conteudo-extra');
+	
+		pontos.style.display = 'none';
+		mais.style.display = 'inline';
+		botao.style.display = 'none';
+	}
+</script>
 </html>

@@ -8,12 +8,3 @@ function mostrarMais(botao) {
 	mais.style.display = 'inline';
 	botao.style.display = 'none';
 }
-function showPlus(botao) {
-	const postagem = botao.closest('.postagem');
-	const pontos = postagem.querySelector('.pontos');
-	const mais = postagem.querySelector('.conteudo-extra');
-
-	pontos.style.display = 'none';
-	mais.style.display = 'inline';
-	botao.style.display = 'none';
-}
