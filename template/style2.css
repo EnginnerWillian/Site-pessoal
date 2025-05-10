@@ -16,6 +16,7 @@
     }
 }
 #area-cabecalho {
+    margin-bottom:50px ;
     padding: 10px;
     max-width:100%;
 	background-color: #252424;
@@ -28,6 +29,7 @@
     font-size: 1em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-shadow:5px 3px 3px #0000ff89;
+    position:fixed;
     z-index:1;
 
 }

@@ -14,10 +14,13 @@ body {
 **** Layout ****
 */
 #area-cabecalho {
+	margin-bottom: 50px;
+	display: block;
 	width:100%;
 	background-color: #252424;
 	padding: 15px;
 	text-align: center;
+	position:fixed;
 }
 
 #area-logo, #area-menu {
@@ -31,19 +34,20 @@ body {
 }
 
 #area-postagens {
+	margin-top: 100px;
 	width: 660px;
 	float: left;
 }
 
 #area-lateral {
+	margin-top: 100px;
 	width: 240px;
 	max-width: 60%;
 	float: right;
 	background-position-x: left;
 }
-button:hover {
-	text-decoration:underline ;
-}
+
+
 .postagem{
 	padding: 20px;
 	margin-bottom: 20px;
@@ -63,10 +67,13 @@ button:hover {
 }
 
 #rodape {
-	clear: both;
-	text-align: center;
-	padding: 15px;
+	text-align: left;
 	background: #CCC;
+	margin-top: 800px;
+	max-width: 100%;
+	font-size: 0.5em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
 }
 
 /*
