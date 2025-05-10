@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>WNTecBlog - O seu Blog de tecnologia <img src="" alt=""></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="template/style.css">
+	<link rel="stylesheet" href="Control/control.js">
+</head>
+<body>
+
+	<div id="area-cabecalho">
+		
+		<div id="area-logo">
+			<img src="	" alt="">
+			<h1><span class="branco">WNTech  Blog</span></h1>
+		</div>
+		<div id="area-menu">
+			<a href="index.html">Home</a>
+			<a href="Contato.html">Contato</a>
+			<a href="Manutenção.html">Manutenção e Suporte</a>
+			<a href="Sobre-mim.html">Sobre Mim</a>
+			<a href="Projetos.html">Projetos WebSites</a>
+		</div>
+
+	</div>
+
+	<div id="area-principal">
+
+		<div id="area-postagens">
+			
+			<!-- abertura postagem -->
+			<div class="postagem">
+				<h2>🌐 Curiosidades de Rede Wi-Fi</h2>
+				<span class="data-postagem">postado 09 de Maio de 2025</span>
+		<p>
+                    <h3 class="postagem-h3" >MU-MIMO</h3>
+                    Funciona com capacidade de transmitir mais de quadro ao mesmo tempo ao endpoint.<span id="pontos">...</span><span id="mais" style="display: none;"></span> Podendo ser transmitido com essa capacidade a partir de que o estação que envia a conectividade tenha mais de uma antena para a propagação do sinal. 
+                    O MU-MIMO tem compatibilidade com os padrões 802.11ac  WI-FI 5(WAVE 2 só que não são todos os dispositivos que fornecem compatibilidade com essa tecnologia), 802.11ax WI-FI 6.
+          <h3 class="postagem-h3">OFDMA</h3>
+              Ortagonal Fraquency Division Multiple Acess (OFDMA) Segundo o livro do Gabriel Torres é ao contrário das outras tecnologias e possui subcanais onde se concentra a transmissão em um só cliente.
+                   		  
+          </p>
+				</div><!--// fechamento postagem -->
+
+			<!-- abertura postagem -->
+			<div class="postagem">
+				<h2>Defesa de rede </h2>
+				<span class="data-postagem">postado 08 Maio 2025</span>
+				<img width="620px" src="imagens/imagem2.jpg">
+					<h3 class="postagem-h3"> Broken Acess Control</h3>
+						<p>
+										Segundo a WOASP  a quinta maior falha de segurança em 2021 foi  o Broken Acesso Control. Que com acesso não autorizado de maneiras  maliciosa pode acabar obtendo acesso a dados de críticidade média/alta. Pode causar danos através de meios como: acessar um terminado dado por uma url de um computador paralelo com ip e navegador diferentes, ter um id de uma sessão clonado ou alterado.
+
+Um dos modos de está em conformidade com segurança é: <ul><br>
+	<li>Testar com automação CI/CD </li>
+		<li>Autenticação multifator</li> 
+	<li>acesso e privilégios limitados</li>
+	<br> Dessa forma podemos dizer que você está deixando seu sistemas ou API integra.</ul>
+
+	<h3 class="postagem-h3">Server-Side Request Forgery</h3>
+Ignorar verificações de controle de acesso modificando a URL (violação de parâmetros ou navegação forçada), o estado interno do aplicativo ou a página HTML, ou usando uma ferramenta de ataque modificando solicitações de API.
+Usar duplos cookies, e usar princípios de gerenciamento de configurações como .net, automação CI/CD entre outros. 
+</p><br>
+			</div><!--// fechamento postagem -->
+
+		</div>
+		<div id="area-lateral">
+			
+
+			<div class="conteudo-lateral">
+				<h3>Postagens recentes</h3>
+				
+				<div class="postagem-lateral">
+					<p>
+					
+			  <h4>OFDMA</h4>
+				  Ortagonal Fraquency Division Multiple Acess (OFDMA) Segundo o livro do Gabriel Torres é ao contrário das outras tecnologias e possui subcanais onde se concentra a transmissão em um só cliente      		  
+			  </p>
+			  <button style="background-color: #FFF; border: none; " onclick="mostrarMais()"><a href="index1.html">Leia mais</a></button>
+			</div>
+
+				<div class="postagem-lateral" style="border-bottom: none;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					<a href="">Leia mais</a>
+				</div>
+
+			</div>
+
+			<div class="conteudo-lateral">
+				<h3>Categorias</h3>
+				
+				<a href="index.html">Home</a><br>
+				<a href="Contato.html">Contato</a><br>
+				<a href="Manutencao">Manutenção e Suporte</a><br>
+				<a href="Sobre-mim.html">Sobre-mim</a><br>
+				<a href="Websites">Projetos WebSites</a><br>
+
+			</div>
+
+
+		</div>
+
+		<div id="rodape">
+			Todos os direitos reservados
+		</div>
+
+	</div>
+    <script>
+        function mostrarMais(botao) {
+            const postagem = botao.closest('.postagem');
+            const pontos = postagem.querySelector('.pontos');
+            const mais = postagem.querySelector('.conteudo-extra');
+        
+            pontos.style.display = 'none';
+            mais.style.display = 'inline';
+            botao.style.display = 'none';
+        }
+        function showPlus(botao) {
+            const postagem = botao.closest('.postagem');
+            const pontos = postagem.querySelector('.pontos');
+            const mais = postagem.querySelector('.conteudo-extra');
+        
+            pontos.style.display = 'none';
+            mais.style.display = 'inline';
+            botao.style.display = 'none';
+        }        
+    </script>
+
+</body>
+</html>
