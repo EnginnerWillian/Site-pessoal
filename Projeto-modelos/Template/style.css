@@ -9,7 +9,11 @@ h1 {
     font-size: 1.1em;
 }
 #principal {
-    width: 900px;
+    width: 900px;   
+}
+#principal > img{
+    
+    max-width: 60%;
 }
 #menu {
     background-color: #c5c5b2;

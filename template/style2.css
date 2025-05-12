@@ -231,18 +231,26 @@ button {
     display: block;
 }
 footer{
-    background-color: #CCC;
-    max-height:100%;
+    background-color: #CCC; 
     margin-top: 20px;
     margin: auto;
     margin-bottom: 0px;
     max-width: 100%;
     padding: 20px;
+    display:inline;
     align-items: center;
     justify-content: center;
-    
 }
-footer > div > img {
+#rodape {
+    background: #CCC;
+    width:100%;
+    max-width: 100%;
+    padding: 5px;
+    text-align: left;
+    font-size: 0.5em;
+    border-bottom: 1px dotted #CCC;	
+}
+footer > img {
     padding: 10px;
     max-width: 150px;
     align-items: center;

@@ -46,7 +46,8 @@ body {
 	float: right;
 	background-position-x: left;
 }
-button:hover {
+
+a:hover {
 	text-decoration:underline ;
 }
 .postagem{
@@ -68,10 +69,13 @@ button:hover {
 }
 
 #rodape {
-	clear: both;
-	text-align: center;
-	padding: 15px;
 	background: #CCC;
+	width:100%;
+	max-width: 100%;
+	padding: 5px;
+	text-align: left;
+	font-size: 0.5em;
+	border-bottom: 1px dotted #CCC;	
 }
 
 /*
@@ -139,7 +143,11 @@ h3 {
 .postagem-h3 {
 	background:none;
 }
-
+.link:hover{
+	box-shadow:5px 5px 5px 5px  #00000068;
+	max-width:240px;
+	max-height:250px;
+}
 
 
 
