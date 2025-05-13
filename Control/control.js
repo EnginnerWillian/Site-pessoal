@@ -8,3 +8,4 @@ function mostrarMais(botao) {
 	mais.style.display = 'inline';
 	botao.style.display = 'none';
 }
+

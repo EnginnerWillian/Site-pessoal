@@ -15,44 +15,43 @@
         transform: translateY(0);
     }
 }
+
 #area-cabecalho {
-    margin-bottom:50px ;
-    padding: 10px;
-    max-width:100%;
+	margin-bottom: 50px;
+	display: block;
+	width:100%;
+    max-width: 100%;
 	background-color: #252424;
 	padding: 15px;
+    display: inline;
 	text-align: center;
-    position:fixed;
-    color:#fff;
-    text-align:center;
-    align-items:center;
-    font-size: 1em;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-    text-shadow:5px 3px 3px #0000ff89;
-    position:fixed;
-    z-index:1;
-
+	position:fixed;
 }
+
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
+/*
+**** Formatação do menu ****
+*/
+a {
+    width: 100%;
+    display: inline;
+	text-decoration:none;
+}
+
+a:link, a:visited {
+	color: #000001;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 #area-cabecalho a:link, #area-cabecalho a:visited {
 	color: #FFF;
 	padding: 8px 12px;
-}
-
-
-a {
-    width: 40px;
-    height: 10px;
-    padding: 10px;
-	text-decoration: none;
-    text-shadow:none;	
-}
-
-#area-cabecalho a:hover {
-	color: #010005;
-	background: #FFF;
-	border-radius:10px;
-
-	text-decoration: none;
 }
 button:link, button:visited {
 	color: #000001;
