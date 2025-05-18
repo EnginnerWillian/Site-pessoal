@@ -27,6 +27,10 @@ body {
 	padding: 10px;
 }
 
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
 #area-principal {
 	width: 920px;
 	margin: 0 auto;
@@ -89,20 +93,22 @@ a:link, a:visited {
 	color: #000001;
 }
 
-
+a:hover {
+	text-decoration: underline;
+	
+}
 
 #area-cabecalho a:link, #area-cabecalho a:visited {
 	color: #FFF;
 	padding: 8px 12px;
 }
 
-#area-cabecalho a:hover {
+ a:hover {
 	color: #010005;
 	background: #FFF;
 	border-radius:10px;
 	text-decoration: none;
 }
-
 /*
 **** Formatações em geral ****
 */
