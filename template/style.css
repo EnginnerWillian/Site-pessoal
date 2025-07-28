@@ -2,7 +2,7 @@
 * {
 	margin: 0;
 	padding: 0;
-}
+}							
 
 body {
 	font-size: 1em;
@@ -13,17 +13,35 @@ body {
 /*
 **** Layout ****
 */
+
 header {
+	width:100%;
 	padding:10px;
 	display:block;
-	width:100%;
 	line-height:3px;
-
 }
+
+header > nav {
+	margin:5px;
+	max-width:100vw;
+	padding:10px;
+	display: flex;
+	align-items: flex-end;
+	float: left;
+}
+
+nav > .branco{
+	margin:10px;
+	padding: 10px;
+	display: inline-block;
+	float:left;
+}
+
 section {
 	margin:0px auto;
 	display:inline-block;
 }
+
 #area-cabecalho {
 	display: block;
 	width:100%;
@@ -32,9 +50,17 @@ section {
 	text-align: center;
 	position:fixed;
 }
+#area-cabecalho > li {
+	 margin:4px;
+	 max-width:100%;
+	 padding:10px;
+	 display:inline;
+}
 
 #area-logo, #area-menu {
 	padding: 10px;
+	float:left;
+	display: inline-flex;
 }
 
 #area-principal {
@@ -72,7 +98,10 @@ section {
 	margin-bottom: 20px;
 	background: white;
 }
-
+li {
+	list-style-position: outside;
+	
+}
 .conteudo-lateral {
 	background: white;
 	padding: 10px;
@@ -118,15 +147,15 @@ a:hover {
 	color: #010005;
 	background: #FFF;
 	border-radius:10px;
-	text-decoration: none;
 }
 
 /*
 **** Formatações em geral ****
-*/
+text-decoration: none;
 h1 {
 	color: #4e4e4e;
 	font-size: 2.5em;
+	*/
 }
 
 h2 {
@@ -161,9 +190,6 @@ h3 {
 .postagem-h3 {
 	background:none;
 }
-
-
-
 
 
 
