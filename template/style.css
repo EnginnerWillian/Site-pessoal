@@ -43,13 +43,16 @@ section {
 }
 
 #area-cabecalho {
+	margin-bottom: 50px;
 	display: block;
 	width:100%;
+    max-width: 100%;
 	background-color: #252424;
 	padding: 15px;
+    display: inline;
 	text-align: center;
 	position:fixed;
-}
+	}
 #area-cabecalho > li {
 	 margin:4px;
 	 max-width:100%;
@@ -156,7 +159,6 @@ h1 {
 	color: #4e4e4e;
 	font-size: 2.5em;
 	*/
-}
 
 h2 {
 	font-family:'Arial';
@@ -177,6 +179,7 @@ h3 {
 	padding: 0;
 	color: white;
 	text-shadow:5px 3px 3px #0000ff89;
+	font-size: 1.2em;
 	float: left;
 }
 
