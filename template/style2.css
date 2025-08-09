@@ -17,7 +17,7 @@
 }
 
 header {
-	padding:10px;
+	padding:10px;   
 	display:block;
 	max-width:100%;
     position:fixed;
@@ -35,7 +35,7 @@ header > nav {
 	margin:5px;
 	max-width:100vw;
 	padding:10px;
-	display: flex;
+    display: inline-block;
 	align-items: flex-end;
 	float: left;
 }
@@ -43,7 +43,7 @@ header > nav {
 nav > .branco{
 	margin:10px;
 	padding: 10px;
-	display: inline-block;
+	display: inline;
 	float:left;
 }
 .branco{
@@ -52,7 +52,10 @@ nav > .branco{
 	color: white;
 	text-shadow:5px 3px 3px #0000ff89;
 	float: left;
-        }
+    font-size: 1.2em;
+}
+
+
 
 
 #area-cabecalho {

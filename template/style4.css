@@ -5,8 +5,8 @@
 @charset "UTF-8";
 * {
 	margin: 0;
-	padding: 0;
 }
+padding: 0;
 
 body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -86,7 +86,7 @@ a:hover {
 */
 h1 {
 	color: #4e4e4e;
-	font-size: 2.5em;
+	font-size: 1.2em;
 }
 
 h2 {
@@ -111,7 +111,7 @@ h3 {
 }
 
 .form-container{
-	width: 90%;
+	width: 950px;
 	margin-top: 150px;
 	padding: 50px 20px;
 	border-radius: 10px;	
@@ -126,13 +126,21 @@ h3 {
 	background-color: #fff;
 	padding:30px;
 	border-radius: 10px;
-	box-shadow:0 0 10px rgba(0, 0, 0, 0.1);
-	width:10%;
+	box-shadow:10px 10px 10px rgba(0, 0, 0, 0.1);
+	width:100%;
 	max-width: 500px;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+}
+.input-sigle{
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 .input{
 	display: block-flex;
-	max-width: 100%;
+	
 	padding: 10px;
 	border-radius: 20px;
 	box-sizing:border-box;
