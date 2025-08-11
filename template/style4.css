@@ -10,7 +10,6 @@ padding: 0;
 
 body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	background: #e6e6e6;
 }
 
 header {
@@ -47,6 +46,7 @@ nav > .branco{
     display: inline;
 	text-align: center;
 	position:fixed;
+	border-radius: 10px;
 }
 
 #area-logo, #area-menu {
@@ -120,7 +120,7 @@ h3 {
     text-align: left;
 	z-index: 4;
 	justify-content: center;
-
+	background-color: ;#808080d3
 }
 .container {
 	background-color: #fff;
@@ -168,4 +168,12 @@ input {
 }
 
 
+textarea{
+	margin: 20px;
+	width: 80%;
+	height: 20em;
+	padding: 10px;
+	justify-content: center;
+	align-items: center;
 
+}
