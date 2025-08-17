@@ -8,34 +8,35 @@ body {
 	font-size: 1em;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: #e6e6e6;
+	cursor: pointer;
 }
 
 /*
 **** Layout ****
 */
 
-header {
-	width:100%;
-	padding:10px;
-	display:block;
-	line-height:3px;
-}
+	header {
+		width:100%;
+		padding:10px;
+		display:block;
+		line-height:3px;
+	}
 
-header > nav {
-	margin:5px;
-	max-width:100vw;
-	padding:10px;
-	display: flex;
-	align-items: flex-end;
-	float: left;
-}
+	header > nav {
+		margin:5px;
+		max-width:100vw;
+		padding:10px;
+		display: flex;
+		align-items: flex-end;
+		float: left;
+	}
 
-nav > .branco{
-	margin:10px;
-	padding: 10px;
-	display: inline-block;
-	float:left;
-}
+	nav > .branco{
+		margin:10px;
+		padding: 10px;
+		display: inline-block;
+		float:left;
+	}
 
 section {
 	margin:0px auto;

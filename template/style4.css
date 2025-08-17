@@ -5,8 +5,9 @@
 @charset "UTF-8";
 * {
 	margin: 0;
+	padding: 0;
 }
-padding: 0;
+
 
 body {
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -118,9 +119,9 @@ h3 {
     display: center;
     align-items: center;
     text-align: left;
-	z-index: 4;
+	z-index: 4;				
 	justify-content: center;
-	background-color: ;#808080d3
+	/*background-color:#808080d3;*/										
 }
 .container {
 	background-color: #fff;
